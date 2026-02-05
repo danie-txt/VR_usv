@@ -1,0 +1,4 @@
+Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daniel/vr_usv/build/vr_usv -- -j12 -l12
+Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daniel/vr_usv/build/vr_usv -- -j12 -l12
+Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daniel/vr_usv/build/vr_usv
+Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daniel/vr_usv/build/vr_usv

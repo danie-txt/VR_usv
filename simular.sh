@@ -14,7 +14,7 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/opt/ros/humble/share/turtlebot3_gaz
 echo "--- Cargando entornos (Sourcing) ---"
 source /usr/share/gazebo/setup.sh
 source /opt/ros/humble/setup.bash
-source ~/articubot_one/install/setup.bash
+source ~/vr_usv/install/setup.bash
 
 echo "--- Lanzando Articubot One ---"
-ros2 launch articubot_one launch_sim.launch.py
+ros2 launch vr_usv launch_sim.launch.py

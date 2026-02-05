@@ -39,13 +39,13 @@
         <sensor name="cameraR" type="camera">
             <pose> 0 0 0 0 0 0 </pose>
             <visualize>true</visualize>
-            <update_rate>60</update_rate>
+            <update_rate>30</update_rate>
             <camera>
                 <horizontal_fov>1.089</horizontal_fov>
                 <image>
                     <format>R8G8B8</format>
-                    <width>640</width>
-                    <height>480</height>
+                    <width>320</width>
+                    <height>240</height>
                 </image>
                 <clip>
                     <near>0.05</near>

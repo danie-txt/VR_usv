@@ -170,8 +170,8 @@
   </ros2_control>
   <gazebo>
     <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
-      <parameters>/home/daniel/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml</parameters>
-      <parameters>/home/daniel/articubot_one/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml</parameters>
+      <parameters>/home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/my_controllers.yaml</parameters>
+      <parameters>/home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/gaz_ros2_ctl_use_sim.yaml</parameters>
     </plugin>
   </gazebo>
   <joint name="cameraR_joint" type="fixed">
