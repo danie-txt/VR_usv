@@ -19,6 +19,12 @@ def generate_launch_description():
 
     package_name='articubot_one' #<--- CHANGE ME
 
+    vr = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch','vr.launch.py'
+                )]), launch_arguments={'use_sim_time': 'true', 'use_ros2_control': 'true'}.items()
+    )
+
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
@@ -57,13 +63,13 @@ def generate_launch_description():
 
     diff_drive_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",
+        executable="spawner",
         arguments=["diff_cont"],
     )
 
     joint_broad_spawner = Node(
         package="controller_manager",
-        executable="spawner.py",
+        executable="spawner",
         arguments=["joint_broad"],
     )
 
@@ -88,6 +94,7 @@ def generate_launch_description():
 
     # Launch them all!
     return LaunchDescription([
+        vr,
         rsp,
         joystick,
         twist_mux,

@@ -1,0 +1,1 @@
+/home/daniel/articubot_one/scripts/sbs_merger_node.py

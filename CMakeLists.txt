@@ -36,5 +36,9 @@ install(
   DIRECTORY config description launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
+install(PROGRAMS
+  scripts/sbs_merger_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()
