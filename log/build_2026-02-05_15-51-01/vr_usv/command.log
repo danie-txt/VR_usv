@@ -1,0 +1,2 @@
+Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daniel/vr_usv -DCMAKE_INSTALL_PREFIX=/home/daniel/vr_usv/install/vr_usv
+Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daniel/vr_usv -DCMAKE_INSTALL_PREFIX=/home/daniel/vr_usv/install/vr_usv

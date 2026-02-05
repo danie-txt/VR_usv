@@ -1,0 +1,76 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/daniel/vr_usv/build/vr_usv
+-- Install configuration: ""
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/twist_mux.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/mapper_params_online_async.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/main.rviz
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/gaz_ros2_ctl_use_sim.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/joystick.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/empty.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/ball_tracker_params_robot.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/drive_bot.rviz
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/gazebo_params.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/nav2_params.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/ball_tracker_params_sim.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/map.rviz
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/my_controllers.yaml
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/view_bot.rviz
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/cameraL.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/cameraR.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/test.urdf
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/face.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/depth_camera.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/robot.urdf.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/robot_core.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/ros2_control.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/gazebo_control.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/lidar.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/inertial_macros.xacro
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/navigation_launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/localization_launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/camera.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/launch_sim.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/vr.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/ball_tracker.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/rsp.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/launch_robot.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/online_async_launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/joystick.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/rplidar.launch.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds/empty.world
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds/obstacles.world
+-- Installing: /home/daniel/vr_usv/install/vr_usv/lib/vr_usv/sbs_merger_node.py
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/package_run_dependencies/vr_usv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/parent_prefix_path/vr_usv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/ament_prefix_path.sh
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/ament_prefix_path.dsv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/path.sh
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/path.dsv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.bash
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.sh
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.zsh
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.dsv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/package.dsv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/packages/vr_usv
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/cmake/vr_usvConfig.cmake
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/cmake/vr_usvConfig-version.cmake
+-- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/package.xml

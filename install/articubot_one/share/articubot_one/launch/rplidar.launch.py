@@ -1,1 +1,0 @@
-/home/daniel/articubot_one/launch/rplidar.launch.py

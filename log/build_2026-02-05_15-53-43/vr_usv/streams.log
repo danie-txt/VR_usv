@@ -1,0 +1,82 @@
+[0.010s] Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daniel/vr_usv -DCMAKE_INSTALL_PREFIX=/home/daniel/vr_usv/install/vr_usv
+[0.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.180s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.214s] -- Configured cppcheck include dirs: 
+[0.214s] -- Configured cppcheck exclude dirs and/or files: 
+[0.246s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.247s] -- Configured cpplint exclude dirs and/or files: 
+[0.251s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.260s] -- Added test 'lint_cmake' to check CMake code style
+[0.264s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.296s] -- Added test 'uncrustify' to check C / C++ code style
+[0.297s] -- Configured uncrustify additional arguments: 
+[0.301s] -- Added test 'xmllint' to check XML markup files
+[0.302s] -- Configuring done
+[0.305s] -- Generating done
+[0.312s] -- Build files have been written to: /home/daniel/vr_usv/build/vr_usv
+[0.315s] Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/daniel/vr_usv -DCMAKE_INSTALL_PREFIX=/home/daniel/vr_usv/install/vr_usv
+[0.316s] Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daniel/vr_usv/build/vr_usv -- -j12 -l12
+[0.352s] Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/daniel/vr_usv/build/vr_usv -- -j12 -l12
+[0.364s] Invoking command in '/home/daniel/vr_usv/build/vr_usv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daniel/vr_usv/build/vr_usv
+[0.370s] -- Install configuration: ""
+[0.370s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config
+[0.370s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/twist_mux.yaml
+[0.370s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/mapper_params_online_async.yaml
+[0.370s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/main.rviz
+[0.370s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/gaz_ros2_ctl_use_sim.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/joystick.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/empty.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/ball_tracker_params_robot.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/drive_bot.rviz
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/gazebo_params.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/nav2_params.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/ball_tracker_params_sim.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/map.rviz
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/my_controllers.yaml
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/config/view_bot.rviz
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description
+[0.371s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/cameraL.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/cameraR.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/test.urdf
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/face.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/depth_camera.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/robot.urdf.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/robot_core.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/ros2_control.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/gazebo_control.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/lidar.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/description/inertial_macros.xacro
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/navigation_launch.py
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/localization_launch.py
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/camera.launch.py
+[0.372s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/launch_sim.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/vr.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/ball_tracker.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/rsp.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/launch_robot.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/online_async_launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/joystick.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/launch/rplidar.launch.py
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds/empty.world
+[0.373s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/worlds/obstacles.world
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/lib/vr_usv/sbs_merger_node.py
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/package_run_dependencies/vr_usv
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/parent_prefix_path/vr_usv
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/ament_prefix_path.sh
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/ament_prefix_path.dsv
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/path.sh
+[0.374s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/environment/path.dsv
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.bash
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.sh
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.zsh
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/local_setup.dsv
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/package.dsv
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/ament_index/resource_index/packages/vr_usv
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/cmake/vr_usvConfig.cmake
+[0.375s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/cmake/vr_usvConfig-version.cmake
+[0.376s] -- Installing: /home/daniel/vr_usv/install/vr_usv/share/vr_usv/package.xml
+[0.377s] Invoked command in '/home/daniel/vr_usv/build/vr_usv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/daniel/vr_usv/build/vr_usv
