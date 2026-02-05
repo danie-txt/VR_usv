@@ -49,9 +49,19 @@ def generate_launch_description():
             ]
         )
 
+
+    web_video_server = Node(
+        package='web_video_server',
+        executable='web_video_server',
+        name='web_video_server',
+        parameters=[{'port': 8080,
+                     'address': '0.0.0.0'  # <--- Esto permite conexiones desde el iPhone
+                     }]
+    )
     
     return LaunchDescription([
             rectify_left,
             rectify_right,
-            sbs_stitcher
+            sbs_stitcher,
+            web_video_server
     ])
