@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style>
+        body { 
+            margin: 0; 
+            background: black; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            width: 100vw;
+            overflow: hidden; 
+            cursor: pointer;
+        }
+        img { width: 100%; height: auto; display: block; }
+    </style>
+</head>
+<body onclick="toggleFullScreen()">
+    <img id="stream" src="">
+
+    <script>
+        // Detecta la IP automáticamente
+        const pcIP = window.location.hostname;
+        document.getElementById("stream").src = `http://${pcIP}:8080/stream?topic=/vr/sbs_final&type=mjpeg`;
+
+        // Función para pantalla completa en Android/Chrome
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error al intentar modo pantalla completa: ${err.message}`);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+    </script>
+</body>
+</html>

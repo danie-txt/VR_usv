@@ -18,3 +18,4 @@ source ~/vr_usv/install/setup.bash
 
 echo "--- Lanzando Articubot One ---"
 ros2 launch vr_usv launch_sim.launch.py
+
